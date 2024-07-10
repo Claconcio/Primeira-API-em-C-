@@ -50,6 +50,9 @@ namespace API.Controllers
         {
             bool apagado = await _UsuarioRepositorio.Apagar(id);
             return Ok(apagado);
+            //testegit
         }
     }
 }
+
+
